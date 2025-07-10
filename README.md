@@ -26,7 +26,7 @@ This project is designed to provide a seamless online experience for snooker ent
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="pulic/home.png" alt="Home Page" width="600"/>
+  <img src="./public/home.png" alt="Home Page" width="600"/>
 </p>
 
 
