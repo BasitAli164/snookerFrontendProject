@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Container, Typography, Grid, Avatar } from '@mui/material';
 import { styled } from '@mui/system';
 import FacebookIcon from '@mui/icons-material/Facebook'; // MUI Facebook icon

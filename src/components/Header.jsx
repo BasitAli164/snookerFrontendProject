@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AppBar, Box, IconButton, Menu, MenuItem, Toolbar, Drawer, List, ListItem, ListItemText, ListItemIcon, Divider } from '@mui/material';
 import { AccountCircle, Menu as MenuIcon, Home, Work, Info, ContactMail, ExitToApp } from '@mui/icons-material'; // Import icons including ExitToApp for logout
 import { Link, useNavigate } from 'react-router-dom';
