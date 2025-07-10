@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Box, Typography, TextField, Button, Grid, CircularProgress, MenuItem, Select, FormControl, InputLabel, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
 import { useLocation } from 'react-router-dom';
 
@@ -127,12 +127,14 @@ const BookingPage = () => {
         minHeight: '107vh',
         background: '#f9f9f9',
         padding: 5,
+        mt:5,
+        mb:5
       }}
     >
       <Box
         sx={{
           background: '#fff',
-          padding: 4,
+          padding: 2,
           borderRadius: '8px',
           boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)',
           width: { xs: '100%', sm: '70%', md: '50%' },
