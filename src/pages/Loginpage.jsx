@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { TextField, Button, Box, Typography, Paper, Container, InputAdornment, IconButton } from '@mui/material';
+import { TextField, Button,Typography, Paper, Container, InputAdornment, IconButton } from '@mui/material';
 import { AccountCircle, Email, Lock, Visibility, VisibilityOff } from '@mui/icons-material'; // Import icons
 
 const LoginPage = () => {

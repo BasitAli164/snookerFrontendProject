@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography, Grid, Card, CardContent, CardMedia, IconButton } from '@mui/material';
 import { Sports, Pool, Event, LocalBar } from '@mui/icons-material'; // Fixed icon import
 import { useNavigate } from 'react-router-dom';
