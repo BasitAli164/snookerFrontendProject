@@ -1,8 +1,7 @@
 // src/components/Footer.js
 
-import React from 'react';
 import { Box, Container, Grid, Typography, IconButton } from '@mui/material';
-import { Facebook, Instagram, WhatsApp, YouTube } from '@mui/icons-material';  // Import WhatsApp icon from MUI
+import { Facebook, Instagram, WhatsApp } from '@mui/icons-material';  // Import WhatsApp icon from MUI
 import { Link } from 'react-router-dom';  // Import React Router's Link
 
 const Footer = () => {
