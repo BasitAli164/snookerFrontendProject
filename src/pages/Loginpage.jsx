@@ -1,5 +1,5 @@
 import  { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate,Link } from 'react-router-dom';
 import { TextField, Button,Typography, Paper, Container, InputAdornment, IconButton } from '@mui/material';
 import { AccountCircle, Email, Lock, Visibility, VisibilityOff } from '@mui/icons-material'; // Import icons
 
@@ -39,10 +39,10 @@ const LoginPage = () => {
     localStorage.setItem('userDetails', JSON.stringify(userDetails));
 
     // Set a timer to remove the user details from localStorage after 10 minutes
-    setTimeout(() => {
-      localStorage.removeItem('userDetails');
-      navigate('/')
-    }, 600000); // 600000 ms = 10 minutes
+    // setTimeout(() => {
+    //   localStorage.removeItem('userDetails');
+    //   navigate('/')
+    // }, 600000); // 600000 ms = 10 minutes
 
     // Redirect the user to the landing page after successful login
     navigate('/landing');
@@ -199,7 +199,30 @@ const LoginPage = () => {
           >
             Login
           </Button>
+
+          <Typography
+  variant="body2"
+  sx={{
+    textAlign: 'center',
+    marginTop: 3,
+    fontFamily: 'Roboto, sans-serif',
+  }}
+>
+  Don’t have an account?{' '}
+  <Link
+    to="/signup"
+    style={{
+      color: '#00796b',
+      fontWeight: 600,
+      textDecoration: 'none',
+    }}
+  >
+    Sign Up
+  </Link>
+</Typography>
+
         </form>
+        
       </Paper>
     </Container>
   );
